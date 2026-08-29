@@ -56,3 +56,23 @@ memberOne.print();
 
 
 //PUT YOUR CODE BELOW THIS LINE
+
+const memberTwo: Album = {
+  title: "Magnolia",
+  artist: "Magnolia Celebration",
+  genre: MusicGenre.Rock,
+  releaseYear: 2022,
+  addedBy: "Patrick James S. Lauron", 
+  print() {
+    console.log(`Title: ${this.title}`);
+    console.log(`Artist: ${this.artist}`);
+    console.log(`Genre: ${MusicGenre[this.genre]}`);
+    console.log(`Release Year: ${this.releaseYear}`);
+    console.log(`Added By: ${this.addedBy}`);
+  }
+};
+
+memberTwo.print();
+
+
+//PUT YOUR CODE BELOW THIS LINE

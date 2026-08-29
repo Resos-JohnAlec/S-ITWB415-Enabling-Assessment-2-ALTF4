@@ -87,3 +87,19 @@ const memberThree = {
 };
 memberThree.print();
 //PUT YOUR CODE BELOW THIS LINE
+
+const memberFour: Album = {
+  title: "Love Yourself: Tear",
+  artist: "BTS",
+  genre: MusicGenre.Pop,
+  releaseYear: 2018,
+  addedBy: "Bianca Lauryn H. Magno",
+  print() {
+    console.log(`Title: ${this.title}`);
+        console.log(`Artist: ${this.artist}`);
+        console.log(`Genre: ${MusicGenre[this.genre]}`);
+        console.log(`Release Year: ${this.releaseYear}`);
+        console.log(`Added By: ${this.addedBy}`);
+  }
+};
+memberFour.print();

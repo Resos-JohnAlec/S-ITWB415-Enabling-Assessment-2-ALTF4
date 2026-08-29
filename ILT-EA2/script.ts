@@ -54,9 +54,6 @@ const memberOne: Album = {
 
 memberOne.print();
 
-
-//PUT YOUR CODE BELOW THIS LINE
-
 const memberTwo: Album = {
   title: "Magnolia",
   artist: "Magnolia Celebration",
@@ -74,5 +71,19 @@ const memberTwo: Album = {
 
 memberTwo.print();
 
-
+const memberThree = {
+    title: "Why'd You Only Call Me When You're High?",
+    artist: "Arctic Monkeys",
+    genre: MusicGenre.Rock,
+    releaseYear: 2013,
+    addedBy: "Eunice Grace O. Revillas",
+    print() {
+        console.log(`Title: ${this.title}`);
+        console.log(`Artist: ${this.artist}`);
+        console.log(`Genre: ${MusicGenre[this.genre]}`);
+        console.log(`Release Year: ${this.releaseYear}`);
+        console.log(`Added By: ${this.addedBy}`);
+    }
+};
+memberThree.print();
 //PUT YOUR CODE BELOW THIS LINE
